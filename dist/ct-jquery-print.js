@@ -14,16 +14,16 @@
 */
 
     ;(function($) {
-        $.fn.printify = function(options)
+        $.fn.print = function(options)
         {
             // PLUGIN DEFAULTS
-            $.fn.printify.defaults = {
+            $.fn.print.defaults = {
                 label: 'print page',
                 before: '',
                 after: ''
             };
 
-            options = $.extend($.fn.printify.defaults,options);
+            options = $.extend($.fn.print.defaults,options);
 
             return this.each(function() {
 
